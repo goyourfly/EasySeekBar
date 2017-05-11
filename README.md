@@ -1,7 +1,7 @@
 # EasySeekBar
 一个简单的SeekBar，支持设置每个分段点的文字，自动吸附到附件的点
 
-![](https://raw.githubusercontent.com/goyourfly/EasySeekBar/master/demo.png)
+<img src="./demo.png?raw=true" alt="Example" width="200" />
 
 ## 用法：
 
