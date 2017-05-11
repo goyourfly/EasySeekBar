@@ -7,6 +7,7 @@
 
 [![](https://jitpack.io/v/goyourfly/EasySeekBar.svg)](https://jitpack.io/#goyourfly/EasySeekBar)
 
+
 Step 1. Add the JitPack repository to your build file
 
 ````
@@ -23,7 +24,7 @@ Step 2. Add the dependency
 
 ````
 	dependencies {
-		compile 'com.github.User:Repo:Tag'
+	        compile 'com.github.goyourfly:EasySeekBar:-SNAPSHOT'
 	}
 ````
 
