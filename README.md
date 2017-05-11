@@ -1,5 +1,5 @@
 # EasySeekBar
-一个简单的SeekBar，支持设置每个分段点的文字，自动吸附到附件的点
+一个简单的SeekBar，支持设置每个分段点的文字，自动吸附到附近的点
 
 <img src="./demo.png?raw=true" alt="Example" width="270" />
 
