@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EasySeekBar">
+
+        <attr name="bar_radius" format="dimension"/>
+        <attr name="second_bar_radius" format="dimension"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_margin" format="dimension"/>
+        <attr name="text_color" format="color"/>
+        <attr name="line_height" format="dimension"/>
+        <attr name="highlight_color" format="color"/>
+        <attr name="default_color" format="color"/>
+        <attr name="values" format="reference"/>
+
+    </declare-styleable>
+
+</resources>

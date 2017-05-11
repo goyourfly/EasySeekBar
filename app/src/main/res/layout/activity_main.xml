@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.goyourfly.easyseekbar.app.MainActivity">
+
+    <com.goyourfly.easyseekbar.EasySeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp" />
+
+    <com.goyourfly.easyseekbar.EasySeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        app:bar_radius="16dp"
+        app:second_bar_radius="8dp"
+        app:text_margin="24dp"
+        app:values="@array/week" />
+
+    <com.goyourfly.easyseekbar.EasySeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        app:bar_radius="8dp"
+        app:default_color="@color/colorPrimaryDark"
+        app:highlight_color="@color/colorAccent"
+        app:second_bar_radius="8dp"
+        app:text_color="@color/colorPrimaryDark" />
+
+    <com.goyourfly.easyseekbar.EasySeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        app:values="@array/index" />
+
+
+</LinearLayout>
